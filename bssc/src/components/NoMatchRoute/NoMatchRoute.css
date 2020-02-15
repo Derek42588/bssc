@@ -1,0 +1,12 @@
+.noMatchBox {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.noMatchBox h2 {
+    width: 100%;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,53 @@
+.providerBodyPart {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+.selectBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.selectBar select {
+    width: 65%;
+    height: 30px;
+}
+
+.providerBodyPartGrid {
+    border: 2px solid black;
+    margin-top: 40px;
+    display: grid;
+    width: 90%;
+    font-size: 18px;
+    grid-template-columns: 30% 70%;
+    grid-gap: 10px;
+}
+.providerBodyPartGrid .fullColumn li {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.providerBodyPartGrid .subGrid {
+   
+}
+
+.providerBodyPartGrid .fullColumn li a {
+    width: 100%;
+    text-decoration: none;
+    color: #242582;
+    transition: color 0.4s;
+    transition: background-color 0.4s;
+}
+
+.providerBodyPartGrid .fullColumn li a:hover {
+    color: #0004ff;
+    background-color: #e7e7f39c
+}

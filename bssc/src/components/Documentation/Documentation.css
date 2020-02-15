@@ -1,0 +1,186 @@
+.insurancesBox {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: white;
+    border: 2px solid #2486e2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.searchBox {
+    display: flex;
+    padding-top: 15px;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: white;
+    border: 2px solid #2486e2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.searchBar {
+    width: 80%;
+    height: 40px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.documentation a {
+    text-decoration: none;
+}
+
+.titleBanner {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.titleBanner h1 {
+    width: 100%;
+}
+
+.searchItems {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+
+.searchItem {
+    width: 30%;
+    padding: 5px;
+    color: white;
+    border: 2px solid #2486e2;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    justify-content: center;
+    background-color: #242582;
+    box-shadow: -1px 1px #3235c0,
+    -2px 2px #3235c0,
+    -3px 3px #3235c0,
+    -4px 4px #3235c0,
+    -5px 5px #3235c0
+}
+.searchItem:hover {
+    cursor: pointer;
+}
+
+.infoBox {
+    text-align: left;
+    width: 100%;
+    padding: 30px;
+}
+.insurancesBox ul li {
+    margin-top: 20px;
+}
+
+.insurancesBox ul {
+    width: 90%;
+}
+
+.insurancesGrid {
+    display: grid;
+    width: 90%;
+    background-color: white;
+    border: 2px solid #2486e2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-columns: 30% 15% 55%;
+    /* grid-gap: 10px; */
+
+}
+
+.referralBox {
+    border: 2px solid #2486e2;
+    width: 100%
+}
+
+.outsidePhonesGrid {
+    display: grid;
+    width: 90%;
+    background-color: white;
+    border: 2px solid #2486e2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-columns: 50% 50%;
+}
+
+.outsidePhonesGrid div {
+    border: 1px solid #2486e2;
+    padding: 5px;
+}
+
+.insurancesGridFullRow {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.insurancesGridTitleText {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.insurancesGrid div {
+    border: 1px solid #2486e2;
+    padding: 5px;
+}
+
+.titleRow {
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.bcbsNotes {
+    grid-row-start: 3;
+    grid-row-end: 9;
+    grid-column-start: 3;
+}
+.documentCard {
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+    background-color: #242582;
+    box-shadow: -1px 1px #3235c0,
+    -2px 2px #3235c0,
+    -3px 3px #3235c0,
+    -4px 4px #3235c0,
+    -5px 5px #3235c0
+    
+}
+
+.documentation {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.documentation h3 {
+    color: black;
+}
+
+.documentation h1 {
+    padding-top: 10px;
+    color: white;
+    width: 100%;
+}
+.insurancesBoxRow {
+    width: 100%;
+}

@@ -1,0 +1,3694 @@
+{
+    "Ghobrial": {
+        "name": "Irene Ghobrial",
+        "title": "PA-C",
+        "npi": ["195236984"],
+        "coordinator": [
+            {
+            "name": "Katie Bergeron",
+            "extension": "213"
+            }
+        ]
+        ,
+        "schedule": ["Monday Waltham", "Tuesday Dedham", "Thursday Waltham", "Fridays Every Other in Waltham, sometimes NEBH"],
+        "alerts": [],
+        "linkedProvider": 
+            [
+                "Alan Curtis"
+            ],
+        "booking": {
+            "Guidelines": [
+                "DO NOT CHANGE TEMPLATE",
+                "NP: 15m in NP slots ONLY",
+                "Sees all 1st POV",
+                "F/U and PO slots interchangeable",
+                "Does not do injections in office"
+            ],
+            "Post Op":[
+                "7-10 days"
+            ],
+            "Specialties": [
+                "SHOULDERS ONLY",
+                "Rotator cuff, Impingement, Instability, Biceps, Tendonesis, Clavicle, Cervicle Radiuculitis, Adhesive Capsulitis, Calcific Tendonitis, Labral Tear, AC Separation, Bursitis"
+            ],
+            "Insurance": ["Does NOT take MassHealth, Yes NHP"],
+            "Age": [
+                "13+ if sports related",
+                "BOSS: 14+",
+                "NEBH: 15+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Blue Shoulder Encounters",
+            "XRays": [
+                "New patients with no recent imaging",
+                "Images older than 1 year",
+                "Any new injury, even if its same issue they've been seen for"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Office Note from referring MD (if applicable"
+                    ],
+                    "Injection Appointment": [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Last OV note WITH THAT PROVIDER",
+                        "Check last OV note -- is the appt appropriate?"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form"
+                    ],
+                    "1st POV":
+                    [
+                        "Operative Report (no office notes)"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx if needed"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Curtis": {
+        "name": "Alan Curtis",
+        "title": "MD",
+        "npi": ["195236984"],
+        "coordinator": [{
+            "name": "Leslie Langston",
+            "extension": "307"
+        }],
+        "schedule": ["Tuesday Dedham", "Thursday Waltham"],
+        "alerts": ["NO FRACTURES", "NO TOTAL SHOULDER", "NO OPEN PROCEDURES - STRICTLY ARTHOSCOPIC", "All new patients see Irene first"],
+        "linkedProvider": ["Irene Ghobrial"],
+        "booking": {
+            "Guidelines": [
+                "New Patients see Irene First",
+                "If MRI confirmed RCT, have report faxed and send case to Leslie to check for earlier appt.",
+                "15m NP slots",
+                "Bring MRI disc with report and operative notes",
+                "Tuesday Max: 55 (Dedham)",
+                "Thursday Max: 25 (Waltham)",
+                "Monday and Wednesday: Do not book without approval from Leslie",
+                "Do NOT create new time slot",
+                "OK to double book any slot, but do not exceed max appt # for the day",
+                "Does not do injections in office"
+            ],
+            "Post Op":[
+                "7-10 days, appointment always with Irene"
+            ],
+            "Specialties": [
+                "Arthroscopic Shoulder Procedures -- No Open Procedures",
+                "Rotator Cuff Repair/Tear (RCR, RCT), Impingement/Distal Clavical Excision, Instability/Dislocation, AC Separation (no repairs), Adhesive Capsulitis, Biep Tendonesis (No distal biceps), Calcific Tendonitis, Labral Tear, Bursitis"
+            ],
+            "Insurance": ["Does NOT take MassHealth, Yes Allways"],
+            "Age": [
+                "13+ if sports related",
+                "BOSS: 14+",
+                "NEBH: 15+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Blue Shoulder Encounters",
+            "XRays": [
+                "New patients with no recent imaging",
+                "Images older than 1 year",
+                "Any new injury, even if its same issue they've been seen for"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Office Note from referring MD (if applicable)"
+                    ],
+                    "Injection Appointment": [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Last OV note WITH THAT PROVIDER",
+                        "Check last OV note -- is the appt appropriate?"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form"
+                    ],
+                    "1st POV":
+                    [
+                        "Operative Report (no office notes)"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx if needed"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Braziel": {
+        "name": "Andrew Braziel",
+        "title": "MD",
+        "npi": ["1821318726"],
+        "coordinator": [{
+            "name": "Ashley Pendleton",
+            "extension": "243"
+        }],
+        "schedule": ["Monday NEBH", "Wednesday NEBH"],
+        "alerts": ["If Pt. at Old Practice:", "Mark all patients as **Braziel Pt** in the sticky note and appt note", 
+        "Must do new reg pk", "Add PCP + Pharmacy", "Send case to Violaine", "Must get referral if needed"],
+        "linkedProvider": ["Lauren Dolloff"],
+        "booking": {
+            "Guidelines": [
+                "NP Slots: 30m",
+                "Est/Post Op: 15m",
+                "NEBH Fremont-Smith XR opens at 8am",
+                "No regenative therapy treatments (PRP, biologic, etc",
+                "Will see patients even if late"
+            ],
+            "Post Op":[
+                "TKR - 4 weeks, 4 mo, 12mo -- all with XRs",
+                "THR - 4-6 weeks, 4mo, 12mo -- all with XRs"
+            ],
+            "Specialties": [
+                "Total Hip & Knee Replacements",
+                "Total Joint revisions (only >9mo post op from original Sx"
+            ],
+            "Insurance": [],
+            "Age": [
+                "No restrictions"
+            ]
+        },
+        "printing": {
+            "SheetType": "Orange Hip/Knee encounters",
+            "XRays": [
+                "ALWAYS gets XR First",
+                "Pts. bringing in imaging from the last 6 months can bring it in and have it reviewed by the Dr, but this is NOT a guarantee that Dr Braziel would not want new XRs",
+                "Est P/O pts need XR EVERY TIME"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)"                    ],
+                    "Injection Appointment": [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet - Dr Braziel",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)",
+                        "Braziel Hip or Knee Survey"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Always check appt. notes -- may require action"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx if needed"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient - Braziel",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=3124&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Braziel Hip Survey",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=3125&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Braziel Knee Survey",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=3129&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Dolloff": {
+        "name": "Lauren Dolloff",
+        "title": "PA-C",
+        "npi": ["1821318726"],
+        "coordinator": [{
+            "name": "Ashley Pendleton",
+            "extension": "243"
+        }],
+        "schedule": [],
+        "alerts": ["If Pt. at Old Practice:", "Mark all patients as **Braziel Pt** in the sticky note and appt note", 
+        "Must do new reg pk", "Add PCP + Pharmacy", "Send case to Violaine", "Must get referral if needed"],
+        "linkedProvider": ["Andrew Braziel"],
+        "booking": {
+            "Guidelines": [
+                "NP Slots: 30m",
+                "Est/Post Op: 15m",
+                "NEBH Fremont-Smith XR opens at 8am",
+                "No regenative therapy treatments (PRP, biologic, etc",
+                "Will see patients even if late"
+            ],
+            "Post Op":[
+                "TKR - 4 weeks, 4 mo, 12mo -- all with XRs",
+                "THR - 4-6 weeks, 4mo, 12mo -- all with XRs"
+            ],
+            "Specialties": [
+                "Total Hip & Knee Replacements",
+                "Total Joint revisions (only >9mo post op from original Sx"
+            ],
+            "Insurance": [],
+            "Age": [
+                "No restrictions"
+            ]
+        },
+        "printing": {
+            "SheetType": "Orange Hip/Knee encounters",
+            "XRays": [
+                "ALWAYS gets XR First",
+                "Pts. bringing in imaging from the last 6 months can bring it in and have it reviewed by the Dr, but this is NOT a guarantee that Dr Braziel would not want new XRs",
+                "Est P/O pts need XR EVERY TIME"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)"                    ],
+                    "Injection Appointment": [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet - Dr Braziel",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)",
+                        "Braziel Hip or Knee Survey"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Always check appt. notes -- may require action"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx if needed"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient - Braziel",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=3124&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Braziel Hip Survey",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=3125&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Braziel Knee Survey",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=3129&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Jawa": {
+        "name": "Andrew Jawa",
+        "title": "MD",
+        "npi": ["1568671188"],
+        "coordinator": [{
+            "name": "AJ Helms",
+            "extension": "311"
+        }],
+        "schedule": ["Monday Every other between Waltham and Dedham", "Wednesday NEBH Sometimes",
+        "Thursday Waltham", "Friday Every other between Waltham and Dedham"],
+        "alerts": ["NO ACUTE FRACTURES", "NO GENERAL SHOULDER PAIN"],
+        "linkedProvider": ["Sarah Rice"],
+        "booking": {
+            "Guidelines": [
+                "New patient slots - meant for New Patients to Dr. Jawa, whether they have seen Sarah, referred from BSSC provider, or decided to forego seeing Sarah and waited for Dr. Jawa's next available",
+                "Patients should be given a choice between Dr. Jawa's next opening and Sarah's next opening",
+                "Sarah sees most new patients from outside the practice, and those referred in house who do not want to wait for Dr. Jawa's next opening",
+                "If patient insists on seeing Dr. Jawa they may do so, but will have to wait for his next available appt.",
+                "Do NOT book both a Sarah and Dr. Jawa appointment.  It is important for patients to understand surgery is booked out 4-5 months, so seeing Sarah sooner could be beneficial to hold a date if appropriate",
+                "10 Minute Post Op: ONLY for patients who have had TSA, Dr. Jawa sees patients at 1, 2, 5, and 10 year post ops"
+            ],
+            "Post Op":[
+                "Check with AJ before rescheduling"
+            ],
+            "Specialties": [
+                "Must have Osteoarthritis, Avascular Necrosis (AVN), Rotator Cuff Tear that cannot be fixed, old fractures",
+                "Must need Total Shoulder Replacement (TSA/TSR), Reverse Total Shoulder Replacement, or Revision Total Shoulder",
+                "Latarjets - young patients with instability/failed surgery"
+            ],
+            "Insurance": ["Does NOT take MassHealth, Yes Allways"],
+            "Age": [
+                "13+ if sports related",
+                "BOSS: 14+",
+                "NEBH: 15+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Red Shoulder Encounters",
+            "XRays": [
+                "Always does XR",
+                "Patients with MRI must still get XR",
+                "Every TSA post op/f/u visit"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Jawa Patients or TSA Consult":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Print out completed Pre-SX form from appt w/ Sarah",
+                        "Blank Sx form",
+                        "If pt. was previously seen by Dr. Jawa and then by Sarah, then back to Dr Jawa -- OV notes from BOTH appts",
+                        "When referred by in house provider, print last OV",
+                        "If there is not a Pre Sx done by Sarah, follow Est/PO printing, and also print BLANK SX FORM"
+                    ],
+                    "Injection Appointment": [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)",
+                        "Put ipad/paper form sticky on chart for MA if noted (e.g. 'OBERD')"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Last OV note"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx if needed",
+                        "Put ipad/paper form sticky on chart for MA if noted (e.g. 'OBERD')"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Patient - Jawa",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2121&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Jawa Pre-Sx",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2822&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Jawa Paper Form",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=1001&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Rice": {
+        "name": "Sarah Rice",
+        "title": "PA",
+        "npi": ["Miller Patients: 1609833953", "Jawa Patients: 156861188"],
+        "coordinator": [
+            {
+            "name": "Jawa Patients - AJ Helms",
+            "extension": "311"
+            },
+            {
+                "name": "Miller Patients - Chrissy Sansevero",
+                "extension": "205"
+            }
+        ]
+        ,
+        "schedule": [
+            "Monday Waltham (Miller)",
+            "Tuesday Waltham (own clinic)",
+            "Wednesday Dedham (Miller)",
+            "Friday Every other between Waltham and Dedham (Jawa)"
+
+        ],
+        "alerts": ["Make sure you are booking in correct slot - is this a JAWA or MILLER patient ?"],
+        "linkedProvider": ["Andrew Jawa", "Suzanne Miller"],
+        "booking": {
+            "Miller Guidelines": [
+                "Her Miller Days are Mon and Wed",
+                "Follow template 'NP Miller-Rice' - DOES SEE GENERAL SHOULDER PAIN ON MILLER DAYS",
+                "All fractures must be approved by Chrissy",
+                "Sarah must see NPs to Dr. Miller that are 70 years or older",
+                "Hamstring tears should be run by Chrissy (need age of pt, date of injury), acute tears need to be seen ASAP"
+            ],
+            "Miller Post Op":[
+                "7-14 days - Shoulder",
+                "10-14 days - Knees and Hamstrings"
+            ],
+            "Miller Specialties": [
+                "Rotator Cuff Repair/Tear (RCR,RCT)",
+                "Impingement/Distal Clavical Excision (DCE)",
+                "Instability/Dislocation (no Laterjet)",
+                "AC Separation",
+                "Adhesive Capsulitis",
+                "Bicep Tendonesis",
+                "Tricep",
+                "Labral tear",
+                "Bursitis",
+                "ACL, MCL, PCL, LCL",
+                "Patella Maltracking/TTO",
+                "OA",
+                "Quad tendon rupture",
+                "Meniscal Tear/Repair",
+                "IT Band",
+                "Hamstring Rupture",
+                "Basic Elbow",
+                "Patella Tendon",
+                "Achilles Rupture",
+                "NO KNEE REPLACEMENT",
+                "NO TOTAL SHOULDERS UNLESS EST PT"
+            ],
+            "Miller Insurance": ["Does NOT take MassHealth, Yes NHP"],
+            "Miller Age": [
+                "14+ if sports related",
+                "BOSS: 14+",
+                "NEBH: 15+"
+            ],
+            "Jawa Guidelines": [
+                "New patient slots - meant for New Patients to Dr. Jawa, whether they have seen Sarah, referred from BSSC provider, or decided to forego seeing Sarah and waited for Dr. Jawa's next available",
+                "Patients should be given a choice between Dr. Jawa's next opening and Sarah's next opening",
+                "Sarah sees most new patients from outside the practice, and those referred in house who do not want to wait for Dr. Jawa's next opening",
+                "If patient insists on seeing Dr. Jawa they may do so, but will have to wait for his next available appt.",
+                "Do NOT book both a Sarah and Dr. Jawa appointment.  It is important for patients to understand surgery is booked out 4-5 months, so seeing Sarah sooner could be beneficial to hold a date if appropriate",
+                "10 Minute Post Op: ONLY for patients who have had TSA, Dr. Jawa sees patients at 1, 2, 5, and 10 year post ops"
+            ],
+            "Jawa Post Op":[
+                "Check with AJ before rescheduling"
+            ],
+            "Jawa Specialties": [
+                "Must have Osteoarthritis, Avascular Necrosis (AVN), Rotator Cuff Tear that cannot be fixed, old fractures",
+                "Must need Total Shoulder Replacement (TSA/TSR), Reverse Total Shoulder Replacement, or Revision Total Shoulder",
+                "Latarjets - young patients with instability/failed surgery"
+            ],
+            "Jawa Insurance": ["Does NOT take MassHealth, Yes Allways"],
+            "Jawa Age": [
+                "13+ if sports related",
+                "BOSS: 14+",
+                "NEBH: 15+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Red Shoulder Encounters (Jawa), Blue Shoulder and Knee (Miller)",
+            "XRays": [
+                "Jawa - Always does XR",
+                "Jawa - Patients with MRI must still get XR",
+                "Jawa - Every TSA post op/f/u visit",
+                "Miller - New patients if no imaging",
+                "Miller - Images older than 6 months",
+                "Miller - Any new injury, even if its same issue they've been seen for",
+                "Miller - If pt is 55+ with recent MRI, give to MA and Dr Miller/Sarah will decide if XR"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Jawa Patients or TSA Consult":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Print out completed Pre-SX form from appt w/ Sarah",
+                        "Blank Sx form",
+                        "If pt. was previously seen by Dr. Jawa and then by Sarah, then back to Dr Jawa -- OV notes from BOTH appts",
+                        "When referred by in house provider, print last OV",
+                        "If there is not a Pre Sx done by Sarah, follow Est/PO printing, and also print BLANK SX FORM"
+                    ],
+                    "All New Miller Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "OV from referring Dr (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)",
+                        "If pt is 55+ and has a recent MRI, may need to get XRs BEFORE seeing Miller/Sarah if report indicates OA"
+                    ],
+                    "Injection Appointment": [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ],
+                    "Jawa Patients": [
+                        "Put ipad/paper form sticky on chart for MA if noted (e.g. 'OBERD')"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "No OV note needed"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form",
+                        "1st injection needs last OV that is NOT an injection",
+                        "2nd and 3rd injection - encounter only"
+                    ],
+                    "1st POV":[
+                        "Operative Report (no office notes)"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ],
+                    "History and Physical":
+                    [
+                        "Print appropriate H&P Cleareance form (BOSS or NEBH)"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx if needed"
+                    ],
+                    "Jawa Patients":[
+                        "Put ipad/paper form sticky on chart for MA if noted (e.g. 'OBERD')"
+                    ],
+                    "IME":[
+                        "Med hx"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Patient - Jawa",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2121&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Jawa Pre-Sx",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2822&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Jawa Paper Form",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=1001&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "NEBH Outpatient Health and Physical",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=1302&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "BOSS Pre-Op Health and Physical",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2301&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Miller": {
+        "name": "Suzanne Miller",
+        "title": "MD",
+        "npi": ["1609833953"],
+        "coordinator":[             {
+            "name": "Chrissy Sansevero",
+            "extension": "205"
+        }],
+        "schedule": [
+            "Monday Waltham", "Tuesday every other in Bourne", "Wednesday Dedham"
+        ],
+        "alerts": ["If 70 or older must see Sarah first"],
+        "linkedProvider": ["Sarah Rice"],
+        "booking": {
+            "Guidelines": [
+               "Template - 15m NP time slot",
+               "If no appoinment within 2 weeks contact Chrissy",
+               "If 70 or older must see Sarah First",
+               "All fractures must be approved by Chrissy",
+               "Only 2 body parts at a time",
+               "Hamstring tears should be run by Chrissy (need age of pt, date of injury)",
+               "Acute tears need to be seen ASAP"
+
+            ],
+            "Post Op":[
+                "7-14 days - Shoulder",
+                "10-14 days - Knees and Hamstring"
+            ],
+            "Specialties": [
+                "Rotator Cuff Repair/Tear (RCR,RCT)",
+                "Impingement/Distal Clavical Excision (DCE)",
+                "Instability/Dislocation (no Laterjet)",
+                "AC Separation",
+                "Adhesive Capsulitis",
+                "Bicep Tendonesis",
+                "Tricep",
+                "Labral tear",
+                "Bursitis",
+                "ACL, MCL, PCL, LCL",
+                "Patella Maltracking/TTO",
+                "OA",
+                "Quad tendon rupture",
+                "Meniscal Tear/Repair",
+                "IT Band",
+                "Hamstring Rupture",
+                "Basic Elbow",
+                "Patella Tendon",
+                "Achilles Rupture",
+                "NO KNEE REPLACEMENT",
+                "NO TOTAL SHOULDERS UNLESS EST PT"
+            ],
+            "Insurance": ["Does NOT take MassHealth, Yes NHP"],
+            "Age": [
+                "14+ if sports related",
+                "BOSS: 14+",
+                "NEBH: 15+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Blue Shoulder and Knee",
+            "XRays": [
+                "New patients if no imaging",
+                "Images older than 6 months",
+                "Any new injury, even if its same issue they've been seen for",
+                "If pt is 55+ with recent MRI, give to MA and Dr Miller/Sarah will decide if XR"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "OV from referring Dr (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)",
+                        "If pt is 55+ and has a recent MRI, may need to get XRs BEFORE seeing Miller/Sarah if report indicates OA"
+                    ],
+                    "Injection Appointment": [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "No OV needed"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form",
+                        "1st injection needs LOV that is NOT an injection",
+                        "2nd and 3rd injection - encounter only"
+                    ],
+                    "1st POV":[
+                        "Operative Report (no office notes)"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx if needed",
+                        "Put ipad/paper form sticky on chart for MA if noted (e.g. 'OBERD')"
+                    ],
+                    "IME":[
+                        "Med hx"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Terrono": {
+        "name": "Andrew Terrono",
+        "title": "MD",
+        "npi": ["1033173612"],
+        "coordinator":[             {
+            "name": "Jillian Lemay",
+            "extension": "314"
+        }],
+        "schedule": [
+            "Monday AM Braintree PM NEBH", "Wednesday NEBH", "Thursday Waltham", "Friday Every other between Bourne and Waltham"
+        ],
+        "alerts": ["NO FRACTURES/ACUTE INJURIES - referring out to Orthopedic Trauma Center on 55 Fruit Street in Boston",
+            "NEBH, Bourne + Braintree -- NO new pts. that need XR in the last hour of the morning or last hour of the day",
+            "NO ELBOWS",
+            "NO RADIUS FRACTURES or INFECTIONS with treatment elsewhere",
+            "Print all documents double sided"
+        ],
+        "linkedProvider": [],
+        "booking": {
+            "Guidelines": [
+
+            ],
+            "Post Op":[
+                "10-14 days"
+            ],
+            "Specialties": [
+                "Mid-forearm to fingertips",
+                "CTS",
+                "Trigger Finger",
+                "de Quervains",
+                "Dupuytren's",
+                "most ligament or tendon issues",
+                "CMC arthritis",
+                "hand arthritis",
+                "scaphoid fractures",
+                "Triangular Fibrocartilage Complex injuries",
+                "Scapholunate ligament injuries"
+            ],
+            "Insurance": ["Takes MassHealth"],
+            "Age": [
+                "15+",
+                "If pt is 100+ y/o, please ask Jillian"
+            ]
+        },
+        "printing": {
+            "SheetType": "Hand Encounters",
+            "XRays": [
+                "Sees patients prior to ordering XR"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "Hand Initial Form + DATE STAMP",
+                        "Hand XR form"
+                    ],
+                    "HSA pt. but new to BSSC":
+                    [
+                        "P drive under HSA -> final_data_export, search for last OV and Op note"
+                    ],
+                    "Injection Appointment": [
+                        "Procedure consent form"
+                    ],
+                    "WC":
+                    [
+                        "Work note"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet -- Kimball/Terrono",
+                        "Hand Packet - diagram with QuickDash + DATE STAMP",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Last OV note",
+                        "Hand Follow Up Form + DATE STAMP",
+                        "Hand XR form"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form"
+                    ],
+                    "1st POV":[
+                        "Operative Report",
+                        "LOV prior to Sx"
+                    ],
+                    "IME":
+                    [
+                        "Scan License",
+                        "Get Med Hx, Quick Dash + DATE STAMP, and Hand Initial + DATE STAMP even if pt. has already had an IME",
+                        "Hand XR form"
+                    ],
+                    "WC":
+                    [
+                        "Work note for every visit"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx if needed  - Kimball/Terrono"
+                    ],
+                    "IME":[
+                        "Med hx + DATE STAMP",
+                        "IME form (print from P drive Hand Center, search IME + DATE STAMP",
+                        "Quick Dash + DATE STAMP"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient - Kimball/Terrono",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=7&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Hand Forms - Quick Dash",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2941&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Hand Forms - Initial",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2702&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Hand Forms - F/u",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2701&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Hand Forms - XR",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2801&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Hand IME Form",
+                "HandIME.pdf",
+                "pdf"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Kimball": {
+        "name": "Hervey Kimball",
+        "title": "MD",
+        "npi": ["1104870476"],
+        "coordinator":[             {
+            "name": "Runa (sp?)",
+            "extension": ""
+        }],
+        "schedule": [
+            "Monday NEBH",
+            "Tuesday Waltham",
+            "Thursday AM Braintree, every other in Dedham"
+        ],
+        "alerts": ["NO FRACTURES/ACUTE INJURIES - referring out to Orthopedic Trauma Center on 55 Fruit Street in Boston",
+            "NEBH, Bourne + Braintree -- NO new pts. that need XR in the last hour of the morning or last hour of the day",
+            "No infections",
+            "Print all documents double sided"
+        ],
+        "linkedProvider": [],
+        "booking": {
+            "Guidelines": [
+                "All new patients are scheduled for 20m"
+            ],
+            "Post Op":[
+                "10-12 days"
+            ],
+            "Specialties": [
+                "Hand to Shoulder",
+                "Elbow Replacements",
+                "Carpal tunnel",
+                "Cubital tunnel",
+                "Dequervains",
+                "Mallet finger",
+                "Trigger finger/thumb",
+                "Bicep tears",
+                "Olecranon bursitis",
+                "Impingement syndrome",
+                "lateral & medial epicondylitis",
+                "Osteoarthritis",
+                "Ganglion cysts"
+            ],
+            "Insurance": ["Takes MassHealth"],
+            "Age": [
+                "15+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Hand Encounters",
+            "XRays": [
+                "Sees patients prior to ordering XR",
+                "< 18 y/o or > 65 y/o if they do not have recent XR to bring to appointment",
+                "1st POV Elbow/Shoulder with plates/screws/splints need XR AFTER cast is off",
+                "1st POV wrist/hand XR NOT NEEDED unless otherwise noted",
+                "Needs XR for traumatic injuries"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "All previous medical records (check chart for fax or take from pt)",
+                        "Hand Initial Form + DATE STAMP",
+                        "Hand XR form"
+                    ],
+                    "HSA pt. but new to BSSC":
+                    [
+                        "P drive under HSA -> final_data_export, search for last OV and Op note"
+                    ],
+                    "Injection Appointment": [
+                        "Procedure consent form"
+                    ],
+                    "WC":
+                    [
+                        "Work note"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet -- Kimball/Terrono",
+                        "Hand Packet - diagram with QuickDash + DATE STAMP",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Last OV note",
+                        "Hand Follow Up Form + DATE STAMP",
+                        "Hand XR form"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form"
+                    ],
+                    "1st POV":[
+                        "Operative Report",
+                        "LOV prior to Sx"
+                    ],
+                    "IME":
+                    [
+                        "Scan License",
+                        "Get Med Hx, Quick Dash + DATE STAMP, and Hand Initial + DATE STAMP even if pt. has already had an IME",
+                        "Hand XR form"
+                    ],
+                    "WC":
+                    [
+                        "Work note for every visit"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx if needed - Kimball/Terrono"
+                    ],
+                    "IME":[
+                        "Med hx + DATE STAMP",
+                        "IME form (print from P drive Hand Center, search IME + DATE STAMP",
+                        "Quick Dash + DATE STAMP"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient - Kimball/Terrono",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=7&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Hand Forms - Quick Dash",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2941&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Hand Forms - Initial",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2702&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Hand Forms - F/u",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2701&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Hand Forms - XR",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2801&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Hand IME Form",
+                "HandIME.pdf",
+                "pdf"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+
+    },
+    "McKeon": {
+        "name": "Brian McKeon",
+        "title": "MD",
+        "npi": ["1902828304"],
+        "coordinator":[             {
+            "name": "Loddie Mosley",
+            "extension": "305"
+        }],
+        "schedule": [
+            "Monday Dedham (every other)",
+            "Wednesday Waltham"
+        ],
+        "alerts": [
+            "NO FRACTURES UNLESS APPROVED",
+            "All new patients see Jason first",
+            "Acute Hip/Ankle Sprain -- only if approved",
+            "NO KNEE REPLACEMENT unless WC",
+            "NO TOTAL SHOULDERS"
+        ],
+        "linkedProvider": ["Jason Rand"],
+        "booking": {
+            "Guidelines": [
+                "All new patients see Jason First unless VIP",
+                "VIP: College athlete, Tara Mounsey referral, Celtics, etc",
+                "WC - template only - 10m slot"
+            ],
+            "Post Op":[
+                "All 1st POV with Jason, 10-14 days"
+            ],
+            "Specialties": [
+                "RCR/Tear",
+                "Impingement/Distal Clavical Excision (DCE)",
+                "Instability/Dislocation",
+                "Laterjet",
+                "AC Separation",
+                "Adhesive Capsulitis",
+                "Bicep Tendonesis",
+                "Distal Biceps",
+                "Labral Tear",
+                "Bursitis",
+                "ACL, MCL, PCL, LCL",
+                "Patella Maltracking/TTO",
+                "HTO",
+                "Meniscal Transplant",
+                "Quad tendon rupture",
+                "Meniscal Tear/Repair",
+                "IT Band",
+                "Tennis Elbow",
+                "Uni/partial replacement"
+            ],
+            "Insurance": ["NO MassHealth, YES AllWays"],
+            "Age": [
+                "13+ if sports related",
+                "14+ BOSS",
+                "15+ NEBH"
+            ]
+        },
+        "printing": {
+            "SheetType": "Blue Shoulder and Blue Knee",
+            "XRays": [
+                "Patients with MRI still must get XR",
+                "New pts",
+                "Images older than 6 months",
+                "Any new injury, even if its same issue they've been seen for",
+                "Pts new to Dr McKeon"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "OV from referring Dr (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ],
+                    "WC":[
+                        "WC Patient Work Status Form",
+                        "WC McKeon WC Letter Form"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Last OV note",
+                        "Most recent OP note (if applicable)"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form",
+                        "1st injection needs LOV that is NOT an injection",
+                        "2nd and 3rd injection - encounter only"
+                    ],
+                    "1st POV":[
+                        "Operative Report (no office notes)"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx"
+                    ],
+                    "WC":
+                    [
+                        "WC Patient Work Status Form - have them sign + date the one on file",
+                        "If change in status, print new form and have them complete"
+                    ],
+                    "IME":[
+                        "Med hx"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "McKeon Work Letter",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=1021&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "McKeon Work Status Form",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=361&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Rand": {
+        "name": "Jason Rand",
+        "title": "PA-C",
+        "npi": ["1902828304"],
+        "coordinator":[             {
+            "name": "Emily Tippett",
+            "extension": "306"
+        }],
+        "schedule": [
+            "Wednesday Waltham",
+            "Friday Dedham",
+            "Saturday once a month in Waltham"
+        ],
+        "alerts": [
+            "NO FRACTURES UNLESS APPROVED",
+            "All new patients see Jason first",
+            "Acute Hip/Ankle Sprain -- only if approved",
+            "NO KNEE REPLACEMENT unless WC",
+            "NO TOTAL SHOULDERS",
+            "Athletes moved to the front",
+            "VIPs moved to the front",
+            "WC with NCM moved to the front (NO WAITING",
+            "NCM Name/Card on the chart"
+        ],
+        "linkedProvider": ["Brian McKeon"],
+        "booking": {
+            "Guidelines": [
+                "New patients according to template (20m slots)",
+                "Est pts according to template - change appt. type accordingly",
+                "PRP/Stem Cell - 30m slot, run by Emily",
+                "MRI f/u done in office - no callbacks -- treat the patient not the image",
+                "For visco injections, call Emily if no availability"
+            ],
+            "Post Op":[
+                "Shoulder: 10-14 days (needs XR)",
+                "Knee: 10-14 days (ACL needs XR)"
+            ],
+            "Specialties": [
+                "RC Tear",
+                "Superior Capsular Reconstructions",
+                "Impingement/Distal Clavical Excision (DCE)",
+                "Instability/Dislocation",
+                "Laterjet",
+                "Distal Biceps rupture",
+                "Adhesive Capsulitis",
+                "Bicep Tendonesis",
+                "AC-jt Separation",
+                "Shoulder Labral Tear",
+                "Bursitis",
+                "ACL, MCL, PCL, LCL",
+                "Patella Maltracking",
+                "Osgood Schlatters",
+                "Chrondal Defects",
+                "Osteotomies",
+                "OA",
+                "Meniscal Transplants",
+                "Meniscal tears",
+                "Quad tendon and Patella Tendon Ruptures",
+                "IT Band",
+                "Clavicle fractures",
+                "Medial and lateral elbow tendonitis (tennis and golfer's elbow",
+                "Uni/Partial knee replacements",
+                "Patellofemoral replacements",
+                "Compartment syndrome",
+                "Achilles tendon ruptures"
+                
+            ],
+            "Insurance": ["NO MassHealth, YES NHP"],
+            "Age": [
+                "13+ if sports related",
+                "14+ BOSS",
+                "15+ NEBH"
+            ]
+        },
+        "printing": {
+            "SheetType": "Blue Shoulder and Blue Knee",
+            "XRays": [
+                "Patients with MRI still must get XR",
+                "New pts",
+                "Images older than 6 months",
+                "Any new injury, even if its same issue they've been seen for",
+                "Pts new to Dr McKeon"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "OV from referring Dr (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ],
+                    "WC":[
+                        "WC Patient Work Status Form",
+                        "WC McKeon WC Letter Form"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Last OV note",
+                        "Most recent OP note (if applicable)"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form",
+                        "1st injection needs LOV that is NOT an injection",
+                        "2nd and 3rd injection - encounter only"
+                    ],
+                    "1st POV":[
+                        "Operative Report (no office notes)"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx"
+                    ],
+                    "WC":
+                    [
+                        "WC Patient Work Status Form - have them sign + date the one on file",
+                        "If change in status, print new form and have them complete"
+                    ],
+                    "IME":[
+                        "Med hx"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "McKeon Work Letter",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=1021&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "McKeon Work Status Form",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=361&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+
+    },
+    "Richmond": {
+        "name": "John Richmond",
+        "title": "MD",
+        "npi": ["1851493928"],
+        "coordinator":[             {
+            "name": "Martine Paim",
+            "extension": "239"
+        }],
+        "schedule": [
+            "Wednesday Waltham",
+            "Thursday Dedham"
+        ],
+        "alerts": [
+            "Non Op as of Jan 2018",
+            "NO FRACTURES",
+            "If any pt. hasn't been seen by Dr. Richmond in a year, they must be booked in a new patient slot",
+            "If pt is being seen for more than one body part, must be booked into a 30m slot",
+            "No Joint Replacements"
+        ],
+        "linkedProvider": [],
+        "booking": {
+            "Guidelines": [
+                "Template Only",
+                "If VIP, ask Martine for more availability",
+                "VIP: Friend/Hingham, Trustee, MD",
+                "Bring MRI disk with report and operative notes",
+                "Visco injection w/ a PA unless pt. requests Dr Richmond",
+                "If Approved by Martine/Dr Richmond - Acute Hip, Ankle Sprain, Achilles"
+            ],
+            "Post Op":[
+                "N/A"
+            ],
+            "Specialties": [
+                "Knee and Shoulder Injuries",
+                "Rotator Cuff Tear (RCT)",
+                "Impingement",
+                "Instability/Dislocation",
+                "AC Separation",
+                "Adhesive Capsulitis",
+                "Bicep Tendonesis",
+                "Labral Tear",
+                "Bursitis",
+                "ACL, MCL, PCL, LCL",
+                "Patella Maltracking",
+                "OA",
+                "Meniscal Transplant",
+                "Quad Tendon",
+                "Meniscal Tear",
+                "Basic Elbow"
+                
+            ],
+            "Insurance": ["NO new MassHealth -- will continue to see for est. pts, YES AllWays"],
+            "Age": [
+                "13+ if sports related"
+            ]
+        },
+        "printing": {
+            "SheetType": "Blue Shoulder and Blue Knee",
+            "XRays": [
+                "New pts with no imaging",
+                "Images older than 1 year",
+                "Any new injury, even if its same issue they've been seen for"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "No OV Needed"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form",
+                        "1st injection needs LOV that is NOT an injection",
+                        "2nd and 3rd injection - encounter only"
+                    ],
+                    "1st POV":[
+                        "Operative Report (no office notes)"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx"
+                    ],
+                    "IME":[
+                        "Med hx"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Mithoefer": {
+        "name": "Kai Mithoefer",
+        "title": "MD",
+        "npi": ["1275504219"],
+        "coordinator":[             {
+            "name": "Kaity Connolly",
+            "extension": "???"
+        }],
+        "schedule": [
+            "Wednesday Waltham"
+        ],
+        "alerts": [
+            "VSCO only upon request -- uses Euflexxa, Synvisc One, Durolane"
+        ],
+        "linkedProvider": [],
+        "booking": {
+            "Guidelines": [
+                "OPEN"
+            ],
+            "Post Op":[
+                "None Yet Listed"
+            ],
+            "Specialties": [
+                "ACL, MCL, PCL, LCL ligament reconstruction/repair",
+                "Posterolater corner injury",
+                "Multiligament injury/knee dislocation",
+                "Patella and quad tendon repair",
+                "Patella dislocations",
+                "Patella instability",
+                "MPFL reconstruction",
+                "Lateral release",
+                "Patella cartilage defects",
+                "Loose bodies",
+                "Meniscal Tears/Repairs",
+                "Meniscectomy",
+                "Meniscal transplantation",
+                "Meniscal substitution",
+                "MACI cartilage transplantation",
+                "Microfracture",
+                "Stem cell transplant",
+                "Osteochondral autograft/allograft",
+                "OATS/moscaicplasty",
+                "synovectomy",
+                "Debridement of knee osteoarthritis",
+                "Rotator Cuff Repair",
+                "Subscapular Repair",
+                "AC Joint Arthritis",
+                "AC jt separations",
+                "Coraco-clavicular ligament reconstruction",
+                "Labral repair (SLAP, anterior/posterior bankart repair",
+                "Articular cartilage injury",
+                "Bicep tears/subluxation/tendonesis",
+                "Distal bicep tears",
+                "Tricep tears",
+                "Tommy John (UCL ligament/elbow) reconstruction"
+            ],
+            "Insurance": ["Takes Masshealth"],
+            "Age": [
+                "14+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Blue Shoulder and Blue Knee",
+            "XRays": [
+                "New pts with no imaging",
+                "Images older than 1 year",
+                "Pre-Sx - New XR if none in last year",
+                "Est Pts: Seen before XR",
+                "1st POV: Seen before XR",
+                "Any new injury, even if its same issue they've been seen for"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)",
+                        "OV from referring Dr (if applicable)"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form"
+                    ],
+                    "In House Referral":
+                    [
+                        "Last OV note",
+                        "Med Hx",
+                        "Imaging Report",
+                        "Op Notes (if any)"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "LOV",
+                        "Most recent OP note (if applicable)"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "PT Follow Up" :
+                    [
+                        "PT notes if specified in LOV"
+                    ],
+                    "Labs F/U":
+                    [
+                        "Lab results"
+                    ],
+                    "Injection Appointment": 
+                    [
+                        "Procedure consent form",
+                        "1st injection needs LOV that is NOT an injection",
+                        "2nd and 3rd injection - encounter only"
+                    ],
+                    "Pre-Sx": 
+                    [
+                        "LOV, imaging report"
+                    ],
+                    "POV":
+                    [
+                        "Operative Report",
+                        "Most recent OV"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx"
+                    ],
+                    "IME":[
+                        "Med hx"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Hofmann": {
+        "name": "Kurt Hofmann",
+        "title": "MD",
+        "npi": ["1326368937"],
+        "coordinator":[             {
+            "name": "Leah Garber",
+            "extension": "235"
+        }],
+        "schedule": [
+            "Monday NEBH",
+            "Wednesday Waltham",
+            "Thursday Waltham"
+        ],
+        "alerts": [
+            "All Fractures must be approved by Leah",
+            "2 NP per Hour",
+            "Does NOT do VSCO",
+            "Mark all OCPN pts as OCPN in sticky and appt. note",
+            "Inform OCPN pt they must call and request their records be faxed over",
+            "If pt arrives and no records have been sent, must immediately fill out OCPN records request (form in our e-mail)",
+            "OCPN pts must do new reg pk"
+        ],
+        "linkedProvider": ["Lauren Dolloff"],
+        "booking": {
+            "Guidelines": [
+                "All Fractures must be approved by Leah",
+                "2 NP per Hour",
+                "Does NOT do VSCO",
+                "15m NP and 1st PO",
+                "10m Est and PO"
+            ],
+            "Post Op":[
+                "14 days",
+                "TAR - 21 days"
+            ],
+            "Specialties": [
+                "Ankle Fusion",
+                "Achilles ruptures",
+                "Foot/ankle fracture",
+                "Distal Tibial/Fibia Fractures",
+                "Bunions",
+                "Ankle Sprains",
+                "Flat Foot Reconstruction",
+                "Great Toe Fusion",
+                "Lisfranc",
+                "Midfoot Fusion",
+                "Subtalar Fusion",
+                "Triple Fusion",
+                "Total Ankle Replacement",
+                "Hammer Toe Repair",
+                "Fractures: Hip, Femur, Knee (patella/tibial plateau/condyle), fibular (proximal and distal), any foot and ankle"
+            ],
+            "Insurance": ["Takes Masshealth and AllWays"],
+            "Age": [
+                "14+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Green Foot and Ankle Encounters",
+            "XRays": [
+                "New pts with no imaging",
+                "New pts with imaging might still need XR if not correct views",
+                "Images older than 6 months",
+                "Any new injury, even if its same issue they've been seen for",
+                "1st POV: XRs out of splint"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet) -- Slovenkai",
+                        "Imaging reports (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)",
+                        "Hofmann Eval Form + DATE STAMP",
+                        "Foot and Ankle Checkout Form + DATE STAMP"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet -- Slovenkai",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "LOV",
+                        "Any Operative Report",
+                        "Hofmann Eval Form + DATE STAMP",
+                        "Foot and Ankle Checkout Form + DATE STAMP"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "POV":
+                    [
+                        "Operative Report",
+                        "Most recent OV"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx -- Slovenkai"
+                    ],
+                    "IME":[
+                        "Med hx -- Slovenkai"
+                    ],
+                    "New Injury":
+                    [
+                        "Medical Hx -- Slovenkai, NOT new injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient Slovenkai/Hofmann",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=225847&CLINICALPAPERFORMID=161&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+            ],
+            [
+                "Hofmann Eval Form",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=3102&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Foot/Ankle Check Out",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231395&CLINICALPAPERFORMID=3123&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+            ],
+            [
+                "Medical History Slovenkai/Hofmann",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231395&CLINICALPAPERFORMID=2502&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Hofmann Records Request",
+                "HofmannOCPN.pdf",
+                "pdf"
+            ],
+            [
+                "Hofmann IME Form",
+                "HofmannIME.pdf",
+                "pdf"
+            ]
+
+        ]
+
+    },
+    "Slovenkai": {
+        "name": "Mark Slovenkai",
+        "title": "MD",
+        "npi": ["1871530980"],
+        "coordinator":[             
+            {
+            "name": "Ryan Clement",
+            "extension": "283"
+        }
+    ],
+        "schedule": [
+            "Tuesday Waltham",
+            "Thursday NEBH"
+        ],
+        "alerts": [
+            "NO OPEN WOUNDS",
+           "Does not treat corns -- if cause of corn is a foot deformity, note deformity, but corn will not be treated at BSSC",
+           "NPs that see Dr. Slovenkai BEFORE Sheri must have a note in their appt. that they requested to see him first",
+           "Fractures and 2nd Opinions must be booked by Ryan",
+           "Est Pts of Sheri's who are booked w/ Dr Slovenkai are booked as NEW PATIENTS",
+           "Achilles Rupture = Case to Ryan, must be booked ASAP"
+        ],
+        "linkedProvider": ["Sheri Martinelli"],
+        "booking": {
+            "Guidelines": [
+                "NP - Templated Spots Only.  Offer Sheri's 1st NP and Dr. Slovenkai's 1st NP",
+                "ALL NP need XR",
+                "If Est. pt has been seen in the last year for the same injury, can be in Est Pt slot",
+                "NEBH pts who need XR must arrive 2 hours early.  Those that do not must be run by Dr. Slovenkai to determine if he sees them before/after XR",
+                "PA F/U: Booked by Christine unless last note from Sheri indicates Sx f/u w/ Dr Slovenkai (if pt has not been seen by Dr. Slovenkai must be in NP Slot and note New to Slovenkai in appt notes)"
+            ],
+            "Post Op":[
+                "14 days - NO SOONER.  All 1st POV see Dr. Slovenkai"
+            ],
+            "Specialties": [
+                "Surgical 2nd Opinions",
+                "Achilles Tear, Peroneal Tendon Tear",
+                "Bunions/Hammer Toes",
+                "Ankle Instability",
+                "Osteoarthritis",
+                "Total Ankle Replacements/Fusions"
+            ],
+            "Insurance": ["Takes Masshealth and NHP"],
+            "Age": [
+                "Pts 18 and below are referred to Children's Hospital"
+            ]
+        },
+        "printing": {
+            "SheetType": "Green Foot and Ankle Encounters",
+            "XRays": [
+                "ALL new pts",
+                "NP with XR must get new XR if older than 1 month or incorrect views (verified by MA on arrival).  Always be told they will need XR regardless",
+                "Images older than 3 months",
+                "Any new injury, even if its same issue they've been seen for",
+                "1st POV: XRs out of splint"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet) -- Slovenkai",
+                        "Imaging reports (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)",
+                        "Foot/Ankle NP Form - in P Drive - Medical Assistant & Clinical Staff folder + DATE STAMP.  Printed with encounter as header. **PRINTED BY MA DEPENDING ON LOCATION**",
+                        "Foot and Ankle Checkout Form + DATE STAMP"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form"
+                    ],
+                    "WC":[
+                        "Blank Work Note"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet -- Slovenkai",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Foot/Ankle Est/PO Form - in P Drive - Medical Assistant & Clinical Staff folder + DATE STAMP.  Printed with encounter as header. **PRINTED BY MA DEPENDING ON LOCATION**",
+                        "Foot and Ankle Checkout Form + DATE STAMP"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form"
+                    ],
+                    "MRI/CT F/U, Labs F/U": [
+                        "Only when noted in appt. notes"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ],
+                    "WC":[
+                        "Blank Work Note + Last Work Note"
+                    ],
+                    "Pre-Op Teaching":
+                    [
+                        "SLOK surgical scheduling sheet (in chart)"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx -- Slovenkai"
+                    ],
+                    "IME":[
+                        "Med hx -- Slovenkai"
+                    ],
+                    "New Injury":
+                    [
+                        "Med Hx -- Slovenkai, NOT new injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient Slovenkai/Hofmann",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=225847&CLINICALPAPERFORMID=161&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+            ],
+            [
+                "Foot/Ankle Check Out",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231395&CLINICALPAPERFORMID=3123&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+            ],
+            [
+                "Medical History Slovenkai/Hofmann",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231395&CLINICALPAPERFORMID=2502&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "P Drive Foot/Ankle NP",
+                "PDriveNPFootAnkle.pdf",
+                "pdf"
+            ],
+            [
+                "P Drive Foot/Ankle F/U",
+                "PDriveFootAnkleFU.pdf",
+                "pdf"
+            ], 
+            [
+                "P Drive Foot/Ankle Check Out",
+                "PDriveFootAnkleCheckout.pdf",
+                "pdf"
+            ]
+
+        ]
+
+    },
+    "Martinelli": {
+        "name": "Sheri Martinelli",
+        "title": "PA-C",
+        "npi": ["1871530980"],
+        "coordinator":[             
+            {
+            "name": "Christine Harris",
+            "extension": "208"
+        }
+    ],
+        "schedule": [
+            "Monday Waltham",
+            "Wednesday Waltham",
+            "Thursday Waltham",
+            "Friday Waltham"
+        ],
+        "alerts": [
+            "NO OPEN WOUNDS",
+            "Does not treat corns -- if cause of corn is a foot deformity, note deformity, but corn will not be treated at BSSC",
+            "Fractures and 2nd Opinions must be booked by Ryan",
+            "Achilles Rupture = Case to Ryan, must be booked ASAP"
+        ],
+        "linkedProvider": ["Mark Slovenkai"],
+        "booking": {
+            "Guidelines": [
+                "Follow Template - 2 pts every 30m",
+                "Always read LOV note to determine WHO pt is to f/u with"
+            ],
+            "Post Op":[
+                "14 days - NO SOONER.  All 1st POV see Dr. Slovenkai"
+            ],
+            "Specialties": [
+                "Surgical 2nd Opinions",
+                "Achilles Tear, Peroneal Tendon Tear",
+                "Bunions/Hammer Toes",
+                "Ankle Instability",
+                "Osteoarthritis",
+                "Total Ankle Replacements/Fusions"
+            ],
+            "Insurance": ["Takes Masshealth and NHP"],
+            "Age": [
+                "Pts 18 and below are referred to Children's Hospital"
+            ]
+        },
+        "printing": {
+            "SheetType": "Green Foot and Ankle Encounters",
+            "XRays": [
+                "ALL new pts",
+                "NP with XR must get new XR if older than 1 month or incorrect views (verified by MA on arrival).  Always be told they will need XR regardless",
+                "Images older than 3 months",
+                "Any new injury, even if its same issue they've been seen for",
+                "1st POV: XRs out of splint"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet) -- Slovenkai",
+                        "Imaging reports (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)",
+                        "Foot/Ankle NP Form - in P Drive - Medical Assistant & Clinical Staff folder + DATE STAMP.  Printed with encounter as header. **PRINTED BY MA DEPENDING ON LOCATION**",
+                        "Foot and Ankle Checkout Form + DATE STAMP"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form"
+                    ],
+                    "WC":[
+                        "Blank Work Note"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet -- Slovenkai",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Foot/Ankle Est/PO Form - in P Drive - Medical Assistant & Clinical Staff folder + DATE STAMP.  Printed with encounter as header. **PRINTED BY MA DEPENDING ON LOCATION**",
+                        "Foot and Ankle Checkout Form + DATE STAMP"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form"
+                    ],
+                    "MRI/CT F/U, Labs F/U": [
+                        "Only when noted in appt. notes"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ],
+                    "WC":[
+                        "Blank Work Note + Last Work Note"
+                    ],
+                    "Pre-Op Teaching":
+                    [
+                        "SLOK surgical scheduling sheet (in chart)"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical Hx -- Slovenkai"
+                    ],
+                    "IME":[
+                        "Med hx -- Slovenkai"
+                    ],
+                    "New Injury":
+                    [
+                        "Med Hx -- Slovenkai, NOT new injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient Slovenkai/Hofmann",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=225847&CLINICALPAPERFORMID=161&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+            ],
+            [
+                "Foot/Ankle Check Out",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231395&CLINICALPAPERFORMID=3123&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+            ],
+            [
+                "Medical History Slovenkai/Hofmann",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231395&CLINICALPAPERFORMID=2502&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "P Drive Foot/Ankle NP",
+                "PDriveNPFootAnkle.pdf",
+                "pdf"
+            ],
+            [
+                "P Drive Foot/Ankle F/U",
+                "PDriveFootAnkleFU.pdf",
+                "pdf"
+            ], 
+            [
+                "P Drive Foot/Ankle Check Out",
+                "PDriveFootAnkleCheckout.pdf",
+                "pdf"
+            ]
+
+        ]
+
+    },
+    "Weitzel": {
+        "name": "Paul Weitzel",
+        "title": "MD",
+        "npi": ["1235197872"],
+        "coordinator":[             
+            {
+            "name": "Brazil Campbell",
+            "extension": "204"
+        }
+    ],
+        "schedule": [
+            "Monday Dedham",
+            "Tuesday Waltham",
+            "Thursday - Dedham, every other AM in Bourne"
+        ],
+        "alerts": [
+            "NO ELBOW, NO TIBIAL PLATEAU FRACTURE, NO KNEE REPLACEMENT, NO TOTAL SHOULDERS",
+            "Prefers to see all NP",
+            "Tom does all VSCO/Injections unless pt requests Dr Weitzel",
+            "All Fractures Approved by Brazil",
+            "No NP in last hour of day"
+        ],
+        "linkedProvider": ["Tom Pacheco"],
+        "booking": {
+            "Guidelines": [
+                "Max 6 pts per hour, no new pts in last hour of day",
+                "Wellesley High & Tufts Univ or 'Friends' get in ASAP (check with Brazil)"
+            ],
+            "Post Op":[
+                "Shoulder - 7-10 days",
+                "Knee - 10-14 days"
+            ],
+            "Specialties": [
+               "Rotator Cuff Repair/Tear",
+               "Impingement/Distal Clavical Excision (DCE)",
+               "Instability/Dislocation (no Laterjet)",
+               "AC Separation",
+               "Adhesive Capsulitis",
+               "Bicep Tendonesis",
+               "Labral Tear",
+               "Bursitis",
+               "ACL, MCL, PCL, LCL",
+               "Patella Maltracking/TTO",
+               "Osteoarthritis",
+               "Quad tendon rupture",
+               "Meniscal Tear/Repair",
+               "IT Band",
+               "Patella Tendon Rupture"
+            ],
+            "Insurance": ["No Masshealth, takes NHP"],
+            "Age": [
+                "13+ if sports related",
+                "BOSS: 14+",
+                "NEBH: 15+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Blue Shoulder and Blue Knee Encounters",
+            "XRays": [
+                "ALL new pts",
+                "NP with XR must get new XR if older than 1 month or incorrect views (verified by MA on arrival).  Always be told they will need XR regardless",
+                "Images older than 1 year",
+                "Any new injury, even if its same issue they've been seen for",
+                "1st POV: Fx/Osteotomy/Meniscal Transplant",
+                "Fx f/u"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "OV from referring Dr (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "No OV Needed"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form",
+                        "1st injection needs last OV that is NOT an injection",
+                        "2nd and 3rd injection - encounter only (if done by that provider)"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "Labs F/U":[
+                        "Lab results"
+                    ],
+                    "PT Follow Up":[
+                        "PT notes if specified in LOV"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ],
+                    "1st POV":[
+                        "Operative Report (no office notes)"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical"
+                    ],
+                    "IME":[
+                        "Med hx"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Pacheco": {
+        "name": "Tom Pacheco",
+        "title": "PA-C",
+        "npi": ["1235197872"],
+        "coordinator":[             
+            {
+            "name": "Brazil Campbell",
+            "extension": "204"
+        }
+    ],
+        "schedule": [
+            "Monday Dedham",
+            "Tuesday Waltham",
+            "Wednesday Waltham (own clinic)"
+        ],
+        "alerts": [
+            "NO ELBOW, NO TIBIAL PLATEAU FRACTURE, NO KNEE REPLACEMENT, NO TOTAL SHOULDERS",
+            "Dr Weitzel prefers to see all NP",
+            "Tom does all VSCO/Injections unless pt requests Dr Weitzel",
+            "All Fractures Approved by Brazil",
+            "No NP in last hour of day"
+        ],
+        "linkedProvider": ["Paul Weitzel"],
+        "booking": {
+            "Guidelines": [
+                "Follow template",
+                "F/U and PO slots interchangeable"
+            ],
+            "Post Op":[
+                "Shoulder - 7-10 days (1st POV w/ Dr Weitzel)",
+                "Knee - 10-14 days (1st POV w/ Dr Weitzel)"
+            ],
+            "Specialties": [
+               "Rotator Cuff Repair/Tear",
+               "Impingement/Distal Clavical Excision (DCE)",
+               "Instability/Dislocation (no Laterjet)",
+               "AC Separation",
+               "Adhesive Capsulitis",
+               "Bicep Tendonesis",
+               "Labral Tear",
+               "Bursitis",
+               "ACL, MCL, PCL, LCL",
+               "Patella Maltracking/TTO",
+               "Osteoarthritis",
+               "Quad tendon rupture",
+               "Meniscal Tear/Repair",
+               "IT Band",
+               "Patella Tendon Rupture"
+            ],
+            "Insurance": ["No Masshealth, takes NHP"],
+            "Age": [
+                "13+ if sports related",
+                "BOSS: 14+",
+                "NEBH: 15+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Blue Shoulder and Blue Knee Encounters",
+            "XRays": [
+                "ALL new pts",
+                "NP with XR must get new XR if older than 1 month or incorrect views (verified by MA on arrival).  Always be told they will need XR regardless",
+                "Images older than 1 year",
+                "Any new injury, even if its same issue they've been seen for",
+                "1st POV: Fx/Osteotomy/Meniscal Transplant",
+                "Fx f/u"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "OV from referring Dr (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "No OV Needed"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form",
+                        "1st injection needs last OV that is NOT an injection",
+                        "2nd and 3rd injection - encounter only (if done by that provider)"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "Labs F/U":[
+                        "Lab results"
+                    ],
+                    "PT Follow Up":[
+                        "PT notes if specified in LOV"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ],
+                    "1st POV":[
+                        "Operative Report (no office notes)"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical"
+                    ],
+                    "IME":[
+                        "Med hx"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Kim": {
+        "name": "Sung Kim",
+        "title": "MAC, LICAC, DILPCH",
+        "npi": ["N/A"],
+        "coordinator":[             
+            {
+            "name": "Stacey Hart",
+            "extension": "210"
+        },
+        {
+            "name": "Violaine Michel",
+            "extension":"203"
+        }
+    ],
+        "schedule": [
+            "Tuesday Waltham",
+            "Thursday Waltham"
+        ],
+        "alerts": [
+            "Billing Questions go to Violaine -- all SELF PAY payments go through square reader",
+            "All Scheduling/Treatment Questions go through Stacey",
+            "Needles, Cupping Therapy and Cold Laser therapy are used in treatment"
+        ],
+        "linkedProvider": [],
+        "booking": {
+            "Guidelines": [
+                "Billing Questions go to Violaine -- all SELF PAY payments go through square reader",
+                "All Scheduling/Treatment Questions go through Stacey"
+            ],
+            "New Patient": [
+                "$150.00 SELF PAY"
+            ],
+            "Est Patient": [
+                "$90.00 SELF PAY"
+            ],
+            "Package": [
+                "10 visits for 10% off, $864"
+            ],
+            "Specialties": [
+               "Acupuncture",
+               "Treating Chinese massage therapy",
+               "Post-Op pain management",
+               "Frozen Shoulder",
+               "Scar Tissue Mobilization",
+               "Carpal Tunnel Syndrom and other nerve entrapment",
+               "Plantar Fasciitis",
+               "Back and Neck Pain"
+            ],
+            "Insurance": ["HPHC, Medicare or WC are the ONLY insurances taken"],
+            "Age": [
+                "ALL"
+            ]
+        },
+        "printing": {
+            "SheetType": "Blank Page Encounters",
+            "XRays": [
+                "N/A"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Med Hx (from registration packet)"
+                    ]   
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)",
+                        "Acupuncture consent form",
+                        "Cancellation Policy"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "Encounter only"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "If applicable, self pay waiver"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Acupuncture Consent Form",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2261&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+
+            ],
+            [
+                "Cancellation Policy",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2482&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Wuerz": {
+        "name": "Thomas Wuerz",
+        "title": "MD",
+        "npi": ["1619141496"],
+        "coordinator":[             
+            {
+            "name": "Nina Daughrity",
+            "extension": "303"
+        }
+    ],
+        "schedule": [
+            "Monday Waltham",
+            "Wednesday Dedham",
+            "Thursday NEBH"
+        ],
+        "alerts": [
+            "Hip and Knee injections done by Stephen, Shoulder referred to NEBH/NEPM",
+            "ALL new pts must arrive 45m to 1hr early for XR",
+            "Dr Wuerz wants to run ON TIME -- if pt is late, check with MA for when Dr Wuerz wants them taken in",
+            "Do NOT book Dr Wuerz's former NEBH pts until we have the medical records",
+            "All pts with TUFTS are scheduled by Nina",
+            "No Hip Replacements/Arthritis/No Fractures"
+        ],
+        "linkedProvider": ["Stephen Wright"],
+        "booking": {
+            "Guidelines": [
+                "Follow template",
+                "NO DOUBLE BOOKING",
+                "If next NP > 1mo away, OK to book in est. slot, but no back to back NPs (2 NPs per hour max)",
+                "45 and under pts should be added to any slot",
+                "60 and above scheduled with Stephen BY NINA"
+            ],
+            "Post Op":[
+                "10-14 days"
+            ],
+            "Specialties": [
+               "General Hip and Groin pain",
+               "Bursitis",
+               "Trochanteric Bursitis",
+               "Labral Tear",
+               "Impingement",
+               "Piriformis Syndrome",
+               "Dysplasia",
+               "IT Band Syndrome",
+               "Hip Flexor/Iliopsoas Release",
+               "Avascular Necrosis",
+               "Core Decompression"
+            ],
+            "Insurance": ["Takes MassHealth and NHP"],
+            "Age": [
+                "16+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Orange Hip and Knee Encounters",
+            "XRays": [
+                "ALL new pts, even with MRI",
+                "Images older than 1 year",
+                "Any new injury, even if its same issue they've been seen for"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "OV from referring Dr (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)",
+                        "Hip patients - SF 12 Health Survey and Hip Outcome Score form (Wuerz Forms)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "LOV"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form",
+                        "1st injection needs last OV that is NOT an injection",
+                        "2nd and 3rd injection - encounter only (if done by that provider)"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "Labs F/U":[
+                        "Lab results"
+                    ],
+                    "PT Follow Up":[
+                        "PT notes if specified in LOV"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ],
+                    "1st POV":[
+                        "Operative Report (no office notes)"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical"
+                    ],
+                    "IME":[
+                        "Med hx"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        },
+        "forms": [
+            [
+                "New Patient",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Wuerz Hip Forms",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2481&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Medical History",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "New Injury",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Work Note",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+                "link"
+            ],
+            [
+                "Procedure Consent",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Self Pay Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ],
+            [
+                "Referral Waiver",
+                "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+                "link"
+
+            ]
+
+        ]
+
+    },
+    "Wright": {
+        "name": "Stephen Wright",
+        "title": "PA-C",
+        "npi": ["1619141496"],
+        "coordinator":[             
+            {
+            "name": "Nina Daughrity",
+            "extension": "303"
+        }
+    ],
+        "schedule": [
+            "Monday Waltham",
+            "Wednesday Dedham",
+            "Friday Waltham"
+        ],
+        "alerts": [
+            "Hip and Knee injections done by Stephen, Shoulder referred to NEBH/NEPM",
+            "ALL new pts must arrive 45m to 1hr early for XR",
+            "Dr Wuerz wants to run ON TIME -- if pt is late, check with MA for when Dr Wuerz wants them taken in",
+            "Do NOT book Dr Wuerz's former NEBH pts until we have the medical records",
+            "All pts with TUFTS are scheduled by Nina",
+            "No Hip Replacements/Arthritis/No Fractures"
+        ],
+        "linkedProvider": ["Thomas Wuerz"],
+        "booking": {
+            "Guidelines": [
+                "Every slot is 20m",
+                "Follow template",
+                "NO DOUBLE BOOKING",
+                "Sees NP 55 and up, p/o, hip and knee injections including PRP, and pre-sx consults"
+            ],
+            "Post Op":[
+                "10-14 days"
+            ],
+            "Specialties": [
+               "General Hip and Groin pain",
+               "Bursitis",
+               "Trochanteric Bursitis",
+               "Labral Tear",
+               "Impingement",
+               "Piriformis Syndrome",
+               "Dysplasia",
+               "IT Band Syndrome",
+               "Hip Flexor/Iliopsoas Release",
+               "Avascular Necrosis",
+               "Core Decompression"
+            ],
+            "Insurance": ["Takes MassHealth and NHP"],
+            "Age": [
+                "16+"
+            ]
+        },
+        "printing": {
+            "SheetType": "Orange Hip and Knee Encounters",
+            "XRays": [
+                "ALL new pts, even with MRI",
+                "Images older than 1 year",
+                "Any new injury, even if its same issue they've been seen for"
+            ],
+            "New Patient": {
+                "Chart": {
+                    "All New Patients":
+                    [
+                        "Medical History (from Registration Packet)",
+                        "Imaging reports (if applicable)",
+                        "OV from referring Dr (if applicable)",
+                        "Any previous medical records available (check chart for fax or take from pt)"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form"
+                    ]
+                },
+                "Fill Out": {
+                    "Everyone": [
+                        "Registration packet",
+                        "Referral Waiver (if needed)",
+                        "Self Pay Waiver (if needed)",
+                        "Hip patients - SF 12 Health Survey and Hip Outcome Score form (Wuerz Forms)"
+                    ]
+                }
+            },
+            "Established Patient": {
+                "Chart": {
+                    "All Est Patients": 
+                    [
+                        "LOV"
+                    ],
+                    "Injection Appointment":
+                    [
+                        "Procedure consent form",
+                        "1st injection needs last OV that is NOT an injection",
+                        "2nd and 3rd injection - encounter only (if done by that provider)"
+                    ],
+                    "MRI/CT F/U": [
+                        "Imaging report"
+                    ],
+                    "Labs F/U":[
+                        "Lab results"
+                    ],
+                    "PT Follow Up":[
+                        "PT notes if specified in LOV"
+                    ],
+                    "IME":
+                    [
+                        "Scan License"
+                    ],
+                    "1st POV":[
+                        "Operative Report (no office notes)"
+                    ]
+                },
+                "Fill Out" : {
+                    "Everyone": 
+                    [
+                        "Updated Reg/Medical"
+                    ],
+                    "IME":[
+                        "Med hx"
+                    ],
+                    "New Injury":
+                    [
+                        "New Injury form"
+                    ]
+                }
+            }
+        }
+
+    },
+    "forms": [
+        [
+            "New Patient",
+            "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2703&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+            "link"
+        ],
+        [
+            "Wuerz Hip Forms",
+            "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2481&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+            "link"
+        ],
+        [
+            "Medical History",
+            "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=2501&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+            "link"
+        ],
+        [
+            "New Injury",
+            "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=89145&CLINICALPAPERFORMID=1981&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+            "link"
+        ],
+        [
+            "Work Note",
+            "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=74297&CLINICALPAPERFORMID=2841&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=69b53bb21ce9252732e6d79dc270827a",
+            "link"
+        ],
+        [
+            "Procedure Consent",
+            "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2641&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+            "link"
+
+        ],
+        [
+            "Self Pay Waiver",
+            "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=2961&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+            "link"
+
+        ],
+        [
+            "Referral Waiver",
+            "https://athenanet.athenahealth.com/749/20/clinicals/blankclinicalpaperform.esp?CHARTID=231206&CLINICALPAPERFORMID=1541&PATIENTFORM=1&PATIENTID=&CSRFPROTECT=b0be608853440e362e01da99c55cfe75",
+            "link"
+
+        ]
+
+    ]
+
+}

@@ -1,0 +1,194 @@
+.provider {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+img {
+    margin-bottom: 20px;
+}
+.providerSheet {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+}
+.IDsheet {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+.titleColumn {
+    min-height: 60px;
+    color: white;
+    background-color:  #242582;
+}
+
+.keyColumn {
+    padding: 5px;
+    background-color: #adadad;
+}
+
+.patientIdContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-flow: row wrap;
+    background-color: #242582;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+.currentlyPrinting {    
+    background-color: #242582;
+    color: white;
+}
+
+.patientIdContainer form {
+    color: white;
+    display: flex;
+    width: 100%;
+}
+.patientIdContainer .inputBar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.patientIdContainer .inputBar input {
+    margin-left: 30px;
+}
+
+.patientIdContainer .inputBar button {
+    height: 80%;
+    padding: 10px;
+    margin-left: 30px;
+}
+.printingSheet {
+    border: 2px solid black;
+    margin-top: 40px;
+    display: grid;
+    width: 90%;
+    font-size: 18px;
+    grid-template-columns: 30% 70%;
+    grid-gap: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.gridItem {
+   margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subGridItem {
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fullColumn {
+    width: 98%;
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.subGrid {
+    display: grid;
+    width: 98%;
+    grid-template-columns: 30% 70%;
+    grid-gap: 10px;
+}
+
+.providerSheet div:nth-child(even) {
+    color: #242582;
+    background-color:  white;
+    
+}
+
+.provider-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-auto-rows: 100%
+}
+.redStripe {
+    background-color: red;
+    color: white;
+}
+.provider-tab {
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+li {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.current-tab {
+    background-color: #242582;
+    color: white;
+}
+.provider-tab:hover {
+    background-color: #242582;
+    color: white;
+    
+}
+.blueStripe {
+    color: white;
+    background-color:  #242582;
+}
+.whiteStripe {
+    color: #242582;
+    background-color:  white;
+}
+.fullRow {
+    min-height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%
+}
+
+.provider-tabs {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+}
+
+.removeButton {
+    margin-left: 20px;
+}

@@ -1,0 +1,19 @@
+.homeBox {
+    display: flex;
+    flex-flow: row wrap;
+    width: 95%;
+    justify-content: center;
+    text-align: center;
+}
+.homeBox h1 {
+    width: 100%;
+}
+.homeBox ul {
+    width: 100%
+}
+.homeBox {
+    display: flex;
+}
+.homeBox {
+    display: flex;
+}

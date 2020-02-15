@@ -1,0 +1,70 @@
+.messagesContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.messages {
+    display: flex;
+    width: 95%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageRow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.messagesTitle {
+    background-color: #242582;
+    color: white;
+    font-size: 30px;
+}
+
+.authorBox {
+    padding: 10px;
+    border: 1px solid black;
+    width: 30%;
+}
+
+.messageBox {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    border: 1px solid black;
+    width: 70%;
+}
+
+.messageBoxMessage {
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* 
+.messagesGrid {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.messageRow {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.authorBox {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.messageBox {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+} */
+
